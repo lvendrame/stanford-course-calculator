@@ -54,14 +54,22 @@
 		49CA0F051E462B3E00080D78 /* stanford-course-calculator */ = {
 			isa = PBXGroup;
 			children = (
-				49CA0F061E462B3E00080D78 /* AppDelegate.swift */,
+				49CA0F181E462C6200080D78 /* Supporting Files */,
 				49CA0F081E462B3E00080D78 /* ViewController.swift */,
 				49CA0F0A1E462B3E00080D78 /* Main.storyboard */,
+			);
+			path = "stanford-course-calculator";
+			sourceTree = "<group>";
+		};
+		49CA0F181E462C6200080D78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49CA0F061E462B3E00080D78 /* AppDelegate.swift */,
 				49CA0F0D1E462B3E00080D78 /* Assets.xcassets */,
 				49CA0F0F1E462B3E00080D78 /* LaunchScreen.storyboard */,
 				49CA0F121E462B3E00080D78 /* Info.plist */,
 			);
-			path = "stanford-course-calculator";
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = TBY65CBLGA;
 				INFOPLIST_FILE = "stanford-course-calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -274,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = TBY65CBLGA;
 				INFOPLIST_FILE = "stanford-course-calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
